@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    margin: 40px;
+    background-color: darkorange;
+}
+.link{
+    font-family: 'Potta One', cursive;
+    float: left;
+    padding: 10px;
+}
+#Hobby{
+    font-family: 'Potta One', cursive;
+    font-size:15px;
+    background: linear-gradient(#05fc26,#05fcd3);
+}
+img{
+  border-radius:100%;
+  width:200px;
+  height:150px;
+}
+p{
+  max-width:450px;
+  margin: 25px auto;
+  font-size:14px;
+  font-family:Arial black;
+  color:#0313fc;
+}
+h3{
+  max-width:450px;
+  margin: 25px auto;
+  font-size:14px;
+  font-family:Arial black;
+  color:#be03fc;
+}
+h4{
+font-size:23px;  
+}
+h5{
+  font-size:11px;
+  font-family:Arial;
+  text-align:justify;
+}
+.menu{
+ list-style: none;
+ top: 10px;
+ cursor: pointer;
+ right: 30px;
+ position: absolute;
+}
+.link:hover{
+    background-color: lightblue;
+}

@@ -2,11 +2,14 @@ body{
     text-align: center;
     margin: 40px;
     background-color: darkorange;
+    margin: 10px;
 }
 .link{
     font-family: 'Potta One', cursive;
     float: left;
     padding: 10px;
+    display: inline;
+    text-decoration: overline;
 }
 #About{
     font-family: 'Potta One', cursive;
@@ -39,14 +42,18 @@ h5{
   text-align:justify;
 }
 .menu{
- list-style: none;
- top: 10px;
- cursor: pointer;
- right: 30px;
- position: absolute;
+    list-style: none;
+    top: 10px;
+    cursor: pointer;
+    right: 30px;
+    position: fixed;
+    z-index: 10;
+    background: #050505;
+    color: aqua;
 }
 .link:hover{
     background-color: lightblue;
+    font-size: 25px;
 }
 .n{
      max-width:450px; 
@@ -60,4 +67,11 @@ h5{
     width: 200px;
     height: 150px;
     border-radius: 100%;
+}
+#Contacts iframe{
+    width: 100%;
+    height: 100%;
+}
+.contac h3{
+    display: inline;
 }
